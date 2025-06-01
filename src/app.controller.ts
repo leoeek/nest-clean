@@ -12,6 +12,6 @@ export class AppController {
 
   @Post('/hello')
   store(): string {
-    return 'teste'
+    return 'teste';
   }
 }
